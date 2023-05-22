@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+    <title>Library System</title>
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+<nav class="title">
+    <div class="tit-1">
+        <p>Library System</p>
+    </div>
+    <div class="right">
+        <a href="#Books">Books</a>
+        <a href="#Register">Register</a>
+        <a href="">Contact us</a>
+        <a href="">Logout</a>
+    </div>
+
+</nav>
+<main class="container">
+    <section class="table-1" id="Books">
+        <h1>Books</h1>
+        <table border="1px " id="Books">
+            <thead>
+              <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                
+                <td>1</td>
+                <td>
+                  <div>
+                  Ponniyin Selvan
+                  <table border="1px" align="center">
+                    <tr>
+                      <td>Publication Date:1964</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:1000</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN: 9788197056789</td>
+                    </tr>
+                  </table>
+                  </div>
+                </td>
+                <td>
+                  Kalki
+                </td>
+                <td>
+                  Historical Novel
+                </td>
+                <td>
+                  Available
+                </td>
+        
+              </tr>
+              <!-- for second row -->
+              <tr>
+                <!-- book id -->
+                <td>2</td>
+                <!-- title -->
+                <td>
+                  Silapathikaram
+                  <table border="1px" align="center">
+                    <tr>
+                      <td>Publication Date :1892</td>
+        
+                    </tr>
+                    <tr>
+                      <td>
+                      Page Count: 1000
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                      ISBN: 978969791234</td>
+                    </tr>
+        
+                  </table>
+        
+                </td>
+                <td>Elango Adikal</td>
+                <td>Novel</td>
+                <td>Not Available</td>
+              </tr>
+              <!-- 3rd row -->
+              <tr>
+                <td>3</td>
+                <td>
+                  Thirukurral
+                  <table border="1px" align="center">
+                    <tr>
+                      <td>Publication Date:1853</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:272</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        ISBN: 9087634211232
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Thiruvalluvar</td>
+                <td>Poetry</td>
+                <td>Available</td>
+              </tr>
+              <!-- 4th row -->
+              <tr>
+                <td>4</td>
+                <td>
+                  Wings Of Fire
+                  <table border="1px" align="center"> 
+                    <tr>
+                      <td>
+                      Publication Date:1999
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                      Page Count:180
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                      ISBN: 81-7371-146-1
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Abdul Kalam</td>
+                <td>Autobiography</td>
+                <td>Available</td>
+              </tr>
+              <!-- 5th row -->
+              <tr>
+                <td>
+                  5
+                </td>
+                <td>
+                  Udayar
+                  <table border="1px" align="center">
+                    <tr>
+                      <td>Publication Date:2000</td>
+        
+                    </tr>
+                    <tr>
+                      <td>Page Count:2736</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      ISBN: 6130436386
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>BalaKumaran</td>
+                <td>History</td>
+                <td>Not Available</td>
+              </tr>
+             
+            </tbody>
+          </table>
+
+
+
+    </section>
+    <section class="Registration" id="Register">
+      <form method="get" id="register" class="must">
+        <h1>Register</h1>
+        <div>
+        <label for="name">First Name:</label><br>
+        <input type="name" name="name" id="name" placeholder="Enter your First Name" required>
+        </div>
+        <div>
+          <label for="name">Last Name:</label><br>
+          <input type="name" name="name" id="name" placeholder="Enter your Last Name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" name="email" id="email" placeholder="Enter your Email Address" required>
+        </div>
+        <div>
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" name="dob" id="dob" placeholder="Enter your Date Of Birth " required>
+        </div>
+        <div>
+          <label for="age">Age:</label><br>
+          <input type="number" name="age" id="age" min="5"  max ="100" placeholder="Enter Your Age" required>
+        </div>
+        <div>
+          <label for="password">Password:</label><br>
+          <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+        </div>
+        <div>
+          <label for="password">Confirm Your Password:</label><br>
+          <input type="password" name="password" id="password" placeholder="Confirm Your Password" required>
+        </div>
+        <br>
+        <button type="submit">Register</button>
+    
+      </form>
+    </section>
+</main>
+
+
+</body>
+
+</html>
